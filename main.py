@@ -6,3 +6,6 @@ employees = []
 employees = add_employee(employees, "Alice")
 employees = add_employee(employees, "Bob")
 employees = remove_employee(employees, "Alice")
+
+print(search_employee(employees, "Bob"))  # Output: True 
+print(search_employee(employees, "Alice"))  # Output: False
